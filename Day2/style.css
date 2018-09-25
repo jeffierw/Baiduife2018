@@ -1,9 +1,11 @@
+
+
 h1{
     text-align: center;
 }
 .container{
     float:left;
-    width: 100px;
+    width: 50%;
     margin-right: 20px;
 }
 .sidebar{
