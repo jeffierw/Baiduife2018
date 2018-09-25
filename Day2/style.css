@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+.container{
+    float:left;
+    width: 100px;
+    margin-right: 20px;
+}
+.sidebar{
+    overflow: hidden;
+}
