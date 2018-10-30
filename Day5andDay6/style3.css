@@ -1,0 +1,45 @@
+h1 {
+    color: aliceblue;
+    padding: 2rem;
+    background-color: #666;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p,ul {
+    font-weight: 700;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    font-weight: 400;
+    list-style-type: none;
+}
+.box {
+    overflow: hidden;
+}
+h3 {
+    float: left;
+    background-color: #999;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding: 4% 6%;
+    max-width: 20%;
+    clear: both;
+}
+p {
+    border-bottom: 1px solid #999;
+    margin: 0;
+    padding: 4%;
+    max-width: 80%;
+}
+.a {
+    border-bottom: 1px solid #fff;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    max-width: 80%;
+}

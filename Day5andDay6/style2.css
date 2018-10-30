@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    max-width: 20%;    
+    float: left;
+    color: aliceblue;
+    background-color: aqua;
+    padding:2rem;
+    padding-bottom: 100%;
+    margin-top:0;
+}
+.box {
+    overflow: auto;
+}
+ul {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding:0;
+    font-weight: 600;
+}
+li { 
+    list-style-type: none;
+}
+p {
+    font-weight: bold;
+}
+li {
+    font-weight:800;
+}
+h3, ul,  p {
+    margin-left:10rem;
+}
