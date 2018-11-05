@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+header {
+    background-color: #333333;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.login {
+    float: right;
+}
+.login li {
+    display: inline-block;
+}
+.login li a {
+     color: #fff;
+}
+.login li:nth-of-type(2) {
+    padding: 0 3px;
+}
+.banner {
+    background-color: #66BB33;
+    width: 100%;
+    height: 300px;
+}
+.banner .container {
+    height: inherit;
+    position: relative;
+}
+.banner-boxes {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.banner-boxes li {
+    border: 1px solid #000;
+    margin: 0;
+    padding: 3px 7px;
+    color: #fff;
+    display: inline-block;
+    background-color: #B2DD99;
+}
+.banner-boxes li a {
+    text-decoration: none;
+}
+.banner-boxes .box-sp {
+    padding-top: 15px;
+    background-color: #fff;
+}
+.content-head {
+    width: 100%;
+    border-bottom: .7px solid #ccc;
+    height: 70px;
+}
+.content-head .container {
+    height: inherit;
+    position: relative;
+}
+.head-boxes {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0;
+}
+.head-boxes li {
+    float: left;
+    font-size: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #EEEEEE;
+} 
+.head-boxes li:nth-child(1) {
+    background-color: #fff;
+    border-bottom-color: #ffff;
+}
+.content .container {
+    margin-top: 10px;
+}
+.content .container>div{
+    display: flex;
+    justify-content: space-between;
+}
+.content .container>div>div {
+    border: .5px solid #ccc;
+    padding: 80px;
+    margin: 2px;
+    font-size: 18px;
+    flex:1 1 auto;
+    text-align: center;
+}
+footer {
+    background-color: #666666;
+    height: 60px;
+}
+.footer-icons {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
